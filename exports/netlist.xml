@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/chihauccisoilconte_mingyuncheng/Documents/AI and Floss projects/projects/etaxtile-board/electronics/etaxtile-board.kicad_sch</source>
+    <date>2026-09-28T12:59:25</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EtaxTile XIAO ESP32-S3 connector board</title>
+        <company/>
+        <rev>A</rev>
+        <date>2026-09-28</date>
+        <source>etaxtile-board.kicad_sch</source>
+        <comment number="1" value="Two LED outputs, two sensor ports; 2.54 mm headers"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>BAT1 1S LiPo</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J1" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00b123f6-12d5-5dff-a8bd-8b0f6fa5ea35</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>BAT2 1S LiPo optional</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J2" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>582e2d7f-e849-5c63-8f50-bf8bf5212d6e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>External 5V boost</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J3" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56573533-2dde-5c73-8be5-b2f6c1bfa6dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>Boost input selector</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J4" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f0337e4-6240-5110-afc3-ac067343553c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>LED supply selector</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J5" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f5460ff-2e01-54b5-b3c7-7344d7a16bde</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>LED string 1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J6" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58c25763-8b35-5da0-8fe7-a3939d441a31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>LED string 2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J7" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53e11a2a-08f1-555f-b77c-dc295ad5636c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>Sensor 1 I2C</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J8" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9a7dfa3-be8a-560f-ab4b-2794a17b2ae8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>Sensor 2 GPIO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J9" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>918bda51-0807-5a2f-9a61-7d0abbb527f3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>All XIAO GPIO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J10" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbbd58c3-d019-56ef-8245-da697399f499</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>3V3 / GND expansion</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J11" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c70686ba-e88d-52cb-95c5-f0a4db886c01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>LED_PWR / GND expansion</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J12" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ca46e70-6bb6-569a-845d-1141641f0438</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>USB 5V / GND expansion</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="J13" description=""/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fc24860-b45d-52d7-a561-2caf0fef6929</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>Seeed XIAO ESP32-S3</value>
+      <footprint>EtaxTile:XIAO-ESP32-S3-SMD</footprint>
+      <datasheet>https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/</datasheet>
+      <fields>
+        <field name="Manufacturer">Seeed Studio</field>
+        <field name="Footprint">EtaxTile:XIAO-ESP32-S3-SMD</field>
+        <field name="Datasheet">https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EtaxTile" part="U1" description=""/>
+      <property name="Manufacturer" value="Seeed Studio"/>
+      <property name="Sheetname" value="etaxtile-board"/>
+      <property name="Sheetfile" value="etaxtile-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bec7607-c890-5120-938b-a5b50496d938</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="EtaxTile" part="J1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BAT1 1S LiPo</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J10">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">All XIAO GPIO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D0" type="passive"/>
+        <pin num="2" name="D1" type="passive"/>
+        <pin num="3" name="D2" type="passive"/>
+        <pin num="4" name="D3" type="passive"/>
+        <pin num="5" name="D4" type="passive"/>
+        <pin num="6" name="D5" type="passive"/>
+        <pin num="7" name="D6" type="passive"/>
+        <pin num="8" name="D7" type="passive"/>
+        <pin num="9" name="D8" type="passive"/>
+        <pin num="10" name="D9" type="passive"/>
+        <pin num="11" name="D10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J11">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3V3 / GND expansion</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="3V3" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="3V3" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="3V3" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LED_PWR / GND expansion</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LED_PWR" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="LED_PWR" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="LED_PWR" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J13">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB 5V / GND expansion</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="USB_5V" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BAT2 1S LiPo optional</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">External 5V boost</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VOUT_5V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Boost input selector</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT1" type="passive"/>
+        <pin num="2" name="BOOST_IN" type="passive"/>
+        <pin num="3" name="BAT2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LED supply selector</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_5V" type="passive"/>
+        <pin num="2" name="LED_PWR" type="passive"/>
+        <pin num="3" name="BOOST_5V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LED string 1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="passive"/>
+        <pin num="2" name="DATA" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J7">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LED string 2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="passive"/>
+        <pin num="2" name="DATA" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Sensor 1 I2C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="J9">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Sensor 2 GPIO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SIG_A" type="passive"/>
+        <pin num="4" name="SIG_B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EtaxTile" part="U1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Seeed XIAO ESP32-S3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D0/GPIO1" type="passive"/>
+        <pin num="2" name="D1/GPIO2" type="passive"/>
+        <pin num="3" name="D2/GPIO3" type="passive"/>
+        <pin num="4" name="D3/GPIO4" type="passive"/>
+        <pin num="5" name="D4/SDA/GPIO5" type="passive"/>
+        <pin num="6" name="D5/SCL/GPIO6" type="passive"/>
+        <pin num="7" name="D6/GPIO43" type="passive"/>
+        <pin num="8" name="D7/GPIO44" type="passive"/>
+        <pin num="9" name="D8/GPIO7" type="passive"/>
+        <pin num="10" name="D9/GPIO8" type="passive"/>
+        <pin num="11" name="D10/GPIO9" type="passive"/>
+        <pin num="12" name="3V3_OUT" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="USB_5V" type="passive"/>
+        <pin num="15" name="MTDI" type="passive"/>
+        <pin num="16" name="MTDO" type="passive"/>
+        <pin num="17" name="EN" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="MTMS" type="passive"/>
+        <pin num="20" name="MTCK" type="passive"/>
+        <pin num="21" name="USB_DN" type="passive"/>
+        <pin num="22" name="USB_DP" type="passive"/>
+        <pin num="23" name="BAT1+" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+        <pin num="25" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="EtaxTile">
+      <uri>${KIPRJMOD}/EtaxTile.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Default">
+      <node ref="J11" pin="1" pinfunction="3V3_1" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="3V3_3" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="3V3_5" pintype="passive"/>
+      <node ref="J11" pin="7" pinfunction="3V3_7" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="3V3_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="3V3_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="3V3_OUT_12" pintype="passive"/>
+    </net>
+    <net code="2" name="/BAT1+" class="Default">
+      <node ref="J1" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="BAT1_1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="BAT1+_23" pintype="passive"/>
+    </net>
+    <net code="3" name="/BAT2+" class="Default">
+      <node ref="J2" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="BAT2_3" pintype="passive"/>
+    </net>
+    <net code="4" name="/BOOST_5V" class="Default">
+      <node ref="J3" pin="3" pinfunction="VOUT_5V_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="BOOST_5V_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/BOOST_IN" class="Default">
+      <node ref="J3" pin="1" pinfunction="VIN_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="BOOST_IN_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/D0" class="Default">
+      <node ref="J10" pin="1" pinfunction="D0_1" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="SIG_A_3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="D0/GPIO1_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/D1" class="Default">
+      <node ref="J10" pin="2" pinfunction="D1_2" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="SIG_B_4" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="D1/GPIO2_2" pintype="passive"/>
+    </net>
+    <net code="8" name="/D2" class="Default">
+      <node ref="J10" pin="3" pinfunction="D2_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="D2/GPIO3_3" pintype="passive"/>
+    </net>
+    <net code="9" name="/D3" class="Default">
+      <node ref="J10" pin="4" pinfunction="D3_4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="D3/GPIO4_4" pintype="passive"/>
+    </net>
+    <net code="10" name="/D4" class="Default">
+      <node ref="J10" pin="5" pinfunction="D4_5" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="SDA_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="D4/SDA/GPIO5_5" pintype="passive"/>
+    </net>
+    <net code="11" name="/D5" class="Default">
+      <node ref="J10" pin="6" pinfunction="D5_6" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="SCL_4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="D5/SCL/GPIO6_6" pintype="passive"/>
+    </net>
+    <net code="12" name="/D6" class="Default">
+      <node ref="J10" pin="7" pinfunction="D6_7" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="DATA_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D6/GPIO43_7" pintype="passive"/>
+    </net>
+    <net code="13" name="/D7" class="Default">
+      <node ref="J10" pin="8" pinfunction="D7_8" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="DATA_2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="D7/GPIO44_8" pintype="passive"/>
+    </net>
+    <net code="14" name="/D8" class="Default">
+      <node ref="J10" pin="9" pinfunction="D8_9" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="D8/GPIO7_9" pintype="passive"/>
+    </net>
+    <net code="15" name="/D9" class="Default">
+      <node ref="J10" pin="10" pinfunction="D9_10" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="D9/GPIO8_10" pintype="passive"/>
+    </net>
+    <net code="16" name="/D10" class="Default">
+      <node ref="J10" pin="11" pinfunction="D10_11" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="D10/GPIO9_11" pintype="passive"/>
+    </net>
+    <net code="17" name="/GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J11" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="J11" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J12" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND_13" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="GND_18" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="GND_24" pintype="passive"/>
+    </net>
+    <net code="18" name="/LED_PWR" class="Default">
+      <node ref="J12" pin="1" pinfunction="LED_PWR_1" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="LED_PWR_3" pintype="passive"/>
+      <node ref="J12" pin="5" pinfunction="LED_PWR_5" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="LED_PWR_2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="V+_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="V+_1" pintype="passive"/>
+    </net>
+    <net code="19" name="/USB_5V" class="Default">
+      <node ref="J13" pin="1" pinfunction="USB_5V_1" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="USB_5V_3" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="USB_5V_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="USB_5V_14" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(U1-EN-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="EN_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-MTCK-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="MTCK_20" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-MTDI-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="MTDI_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-MTDO-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="MTDO_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-MTMS-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="MTMS_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PAD-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="PAD_25" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-USB_DN-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="USB_DN_21" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-USB_DP-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="USB_DP_22" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

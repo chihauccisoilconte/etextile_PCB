@@ -1,0 +1,7 @@
+# KiCad editor state and local history
+*.kicad_prl
+.history/
+
+# Python cache
+__pycache__/
+*.pyc

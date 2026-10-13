@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "EtaxTile") (type "KiCad") (uri "${KIPRJMOD}/EtaxTile.kicad_sym") (options "") (descr "EtaxTile local symbols")))
