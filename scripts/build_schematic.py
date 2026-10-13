@@ -4,7 +4,7 @@ import json
 import sys
 import uuid
 
-E = PROJECT / "electronics"
+E = PROJECT / "hardware"
 target = E / f"{NAME}.kicad_sch"
 if target.exists() and "--regenerate" not in sys.argv:
     raise SystemExit("Schematic exists. Check for manual edits before --regenerate.")

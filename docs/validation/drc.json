@@ -1,0 +1,465 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T18:20:27",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Value (J2) doesn't match symbol value (Conn_01x05_Socket)",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 189.05,
+                        "y": 55.1
+                    },
+                    "uuid": "25e7f88b-2f96-4f07-809e-8d22157d434e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical doesn't match footprint given by symbol ()",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 189.05,
+                        "y": 55.1
+                    },
+                    "uuid": "25e7f88b-2f96-4f07-809e-8d22157d434e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Generic connector, single row, 01x05, script generated', Schematic: 'Generic connector, single row, 01x03, script generated')",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 189.05,
+                        "y": 55.1
+                    },
+                    "uuid": "25e7f88b-2f96-4f07-809e-8d22157d434e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 4 [Net-(J2-Pin_4)] of J2",
+                    "pos": {
+                        "x": 189.05,
+                        "y": 62.72
+                    },
+                    "uuid": "b1cf2612-e216-43af-88c9-c9478abe41e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 5 [Net-(J2-Pin_5)] of J2",
+                    "pos": {
+                        "x": 189.05,
+                        "y": 65.26
+                    },
+                    "uuid": "6d0e87aa-40f1-4240-bae0-25efbe7adf29"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Missing footprint J3 (3.3_led_strip)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J4 (Conn_01x06_Pin)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J5 (Conn_01x06_Pin)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J6 (Conn_01x06_Pin)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J8 (ext_power_led_strip)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J9 (external power supply)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J10 (lipo_led_strip)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Pad net (Net-(J2-Pin_5)) doesn't match net given by schematic (Net-(J2-Pin_3))",
+            "items": [
+                {
+                    "description": "Pad 6 [Net-(J2-Pin_5)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 168.849,
+                        "y": 68.1905
+                    },
+                    "uuid": "b13b0130-cb4c-4943-b585-b2ceee306ee9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(J2-Pin_4)) doesn't match net given by schematic (Net-(J2-Pin_2))",
+            "items": [
+                {
+                    "description": "Pad 7 [Net-(J2-Pin_4)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 168.849,
+                        "y": 70.7305
+                    },
+                    "uuid": "4d6a62b3-24f4-4c18-9135-d344914256fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(J2-Pin_3)) doesn't match net given by schematic (Net-(J2-Pin_1))",
+            "items": [
+                {
+                    "description": "Pad 8 [Net-(J2-Pin_3)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 185.014,
+                        "y": 70.7305
+                    },
+                    "uuid": "d74e8b37-428e-4943-81fb-ba84ed8a6f67"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(J2-Pin_2)) doesn't match net given by schematic (Net-(J10-Pin_1))",
+            "items": [
+                {
+                    "description": "Pad 9 [Net-(J2-Pin_2)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 185.014,
+                        "y": 68.1905
+                    },
+                    "uuid": "631cba85-02d3-4b37-9bbd-03c2806f00cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(J2-Pin_1)) doesn't match net given by schematic (Net-(J8-Pin_2))",
+            "items": [
+                {
+                    "description": "Pad 10 [Net-(J2-Pin_1)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 185.014,
+                        "y": 65.6505
+                    },
+                    "uuid": "e38f9c4f-199c-4bc6-bada-f3edf5a86156"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint LED_strip",
+                    "pos": {
+                        "x": 185.2,
+                        "y": 76.82
+                    },
+                    "uuid": "16993a5c-89a1-4b15-a613-5026fee093cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint 3.3v",
+                    "pos": {
+                        "x": 180.79,
+                        "y": 76.87
+                    },
+                    "uuid": "459cfb76-04c8-4be2-8841-03f1de314a30"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint 5V(USB)",
+                    "pos": {
+                        "x": 173.84,
+                        "y": 76.82
+                    },
+                    "uuid": "6240f3ff-cb06-43a1-b6d8-3543730885eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 189.4,
+                        "y": 71.45
+                    },
+                    "uuid": "773cc007-dcc1-4da7-819e-a1843b8f6d5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint gnd",
+                    "pos": {
+                        "x": 166.9,
+                        "y": 76.82
+                    },
+                    "uuid": "debce405-5488-4b9a-bbca-eca6fd144df5"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "etaxtile-board.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 3.3234 mm",
+                    "pos": {
+                        "x": 175.35,
+                        "y": 73.35
+                    },
+                    "uuid": "edd871ea-e68b-4915-b6dc-f2c521633832"
+                },
+                {
+                    "description": "Track [GND] on F.Cu, length 9.7000 mm",
+                    "pos": {
+                        "x": 166.1,
+                        "y": 74.05
+                    },
+                    "uuid": "b3388240-164d-4df8-a787-15cb5bae7f6a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Footprint 'PinSocket_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint LED_strip",
+                    "pos": {
+                        "x": 185.2,
+                        "y": 76.82
+                    },
+                    "uuid": "16993a5c-89a1-4b15-a613-5026fee093cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinSocket_1x05_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 189.05,
+                        "y": 55.1
+                    },
+                    "uuid": "25e7f88b-2f96-4f07-809e-8d22157d434e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinSocket_2x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint 3.3v",
+                    "pos": {
+                        "x": 180.79,
+                        "y": 76.87
+                    },
+                    "uuid": "459cfb76-04c8-4be2-8841-03f1de314a30"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinSocket_2x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint 5V(USB)",
+                    "pos": {
+                        "x": 173.84,
+                        "y": 76.82
+                    },
+                    "uuid": "6240f3ff-cb06-43a1-b6d8-3543730885eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinSocket_2x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint gnd",
+                    "pos": {
+                        "x": 166.9,
+                        "y": 76.82
+                    },
+                    "uuid": "debce405-5488-4b9a-bbca-eca6fd144df5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinSocket_1x05_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 164.6,
+                        "y": 65.66
+                    },
+                    "uuid": "fe55219f-d583-4416-b33b-7e4e9bb53802"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J7 on F.Silkscreen",
+                    "pos": {
+                        "x": 163.17,
+                        "y": 68.47
+                    },
+                    "uuid": "13e021e8-c1b1-4872-847b-b5061564f11c"
+                },
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 164.6,
+                        "y": 68.43
+                    },
+                    "uuid": "5aaa3ce7-77e5-4b29-a378-56bd5b019ab0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 164.6,
+                        "y": 68.43
+                    },
+                    "uuid": "5aaa3ce7-77e5-4b29-a378-56bd5b019ab0"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of J7",
+                    "pos": {
+                        "x": 164.5,
+                        "y": 69.8
+                    },
+                    "uuid": "5b21cb2a-278b-4f29-b222-44bc26e29e8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

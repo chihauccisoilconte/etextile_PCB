@@ -5,11 +5,11 @@ import sys
 import xml.etree.ElementTree as ET
 import pcbnew as k
 
-E = PROJECT / "electronics"
+E = PROJECT / "hardware"
 target = E / f"{NAME}.kicad_pcb"
 if target.exists() and "--regenerate" not in sys.argv:
     raise SystemExit("PCB exists. Check for manual edits before --regenerate.")
-netlist = PROJECT / "exports/netlist.xml"
+netlist = PROJECT / "docs/validation/netlist.xml"
 if not netlist.exists():
     raise SystemExit("Export the KiCad XML netlist before building the PCB.")
 

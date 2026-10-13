@@ -1,10 +1,12 @@
 # Current status
 
-Stage: editable connector-board draft, placement complete, routing pending.
+Stage: editable draft; saved schematic and routed PCB are out of sync. Not ready for fabrication.
 
 ## 2026-10-13
 
 Created a standalone project Git repository and uploaded the KiCad sources, scripts, and previews to the private GitHub repository at https://github.com/chihauccisoilconte/etextile_PCB. Local KiCad history, editor state, and Python caches are excluded. The electrical and mechanical open decisions below remain unchanged.
+
+Reorganized the repository: editable KiCad files are in `hardware/`, historical design notes, regenerated previews and current reports are in `docs/`, and older-concept generators remain in `scripts/`. Removed unused template folders. The native KiCad files were moved unchanged, and the generator paths were updated. A fresh ERC/DRC run found one ERC power-pin error, eight DRC warnings, one reported unconnected item, and 22 schematic-parity issues. The saved PCB is 31.35 × 36.1 mm with 9 footprints and 160 track segments; the earlier 125 × 83 mm unrouted description does not match it. Resolve the schematic/PCB mismatch before making a fabrication package. Licensing, BOM and assembly documentation are still pending.
 
 ## 2026-09-28
 
